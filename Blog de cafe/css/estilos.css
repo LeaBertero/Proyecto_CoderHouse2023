@@ -74,8 +74,69 @@ img{
     padding: 0;
 } */
 
+.index-titulo{
+    border: 1px solid var(--negro);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--negro);
+    color: var(--blanco);
+    text-shadow: 2px 5px 3px var(--primario);
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
 .centrar-texto{
     text-align: center;
+}
+
+.navegacion__enlace{
+    border: 1px solid var(--blanco);
+    padding: 10px;
+    border-radius: 10px;
+    /* text-shadow: 2px 5px 3px var(--blanco); */
+    background-color: var(--negro);
+    /* text-transform: uppercase; */
+    box-shadow: 2px 5px 3px var(--primario);
+}
+
+.navegacion__enlace:hover{
+    color: var(--negro);
+    background-color: var(--blanco);
+    text-shadow: 2px 5px 3px var(--negro);
+}
+
+.contacto-titulo{
+    border: 1px solid var(--negro);
+    color: var(--primario);
+    text-shadow: 2px 5px 3px var(--blanco);
+    background-color: var(--negro);
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 1rem;
+    letter-spacing: 30px;
+}
+
+.nosotros-title{
+    text-transform: uppercase;
+    border: 1px solid var(--negro);
+    text-shadow: 2px 5px 3px var(--primario);
+    color: var(--blanco);
+    background-color: var(--negro);
+    padding: 1rem;
+    margin: 1rem;
+    letter-spacing: 30px;
+}
+
+.cursos-title{
+    border: 1px solid var(--negro);
+    padding: 1rem;
+    margin: 1rem;
+    text-shadow: 2px 5px 3px var(--primario);
+    text-transform: uppercase;
+    color: var(--blanco);
+    background-color: var(--negro);
+    letter-spacing: 30px;
 }
 
 /* header */
@@ -113,10 +174,17 @@ img{
 
 .logo{
     color: var(--blanco);
+    border: 1px solid var(--blanco);
+    /* height: 80px; */
+    padding: 0px 10px;
+    box-shadow: 2px 5px 3px var(--blanco);
+    border-radius: 10px;
 }
 
 .logo__nombre{
     font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 2px 5px 3px var(--primario);
 }
 
 .logo__bold{

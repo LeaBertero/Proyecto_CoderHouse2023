@@ -86,6 +86,86 @@ img{
     text-transform: uppercase;
 }
 
+.title-tipoGranos{
+    border: 1px solid var(--negro);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    text-shadow: 2px 5px 3px var(--primario);
+    color: var(--blanco);
+    background-color: var(--negro);
+}
+
+.title-recetas{
+    border: 1px solid var(--negro);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--blanco);
+    text-shadow: 2px 5px 3px var(--primario);
+    text-transform: uppercase;
+    background-color: var(--negro);
+}
+
+.title-beneficios{
+    text-transform: uppercase;
+    border: 1px solid var(--negro);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    text-shadow: 2px 5px 3px var(--primario);
+    color: var(--blanco);
+    background-color: var(--negro);
+}
+
+.title-tecnicas{
+    border: 1px solid var(--negro);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--blanco);
+    text-shadow: 2px 5px 3px var(--primario);
+    background-color: var(--negro);
+    /* letter-spacing: 10px; */
+}
+
+.title-taller{
+    border: 1px solid var(--negro);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--blanco);
+    text-shadow: 2px 5px 3px var(--primario);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--negro);
+    /* letter-spacing: 10px; */
+}
+
+.title-recetasCafe{
+    border: 1px solid var(--negro);
+    text-align: center;
+    /* letter-spacing: 10px; */
+    color: var(--blanco);
+    text-shadow: 2px 5px 3px var(--primario);
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--negro);
+}
+
+.cursos-talleres{
+    border: 1px solid var(--negro);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--blanco);
+    text-shadow: 2px 5px 3px var(--primario);
+    text-transform: uppercase;
+    background-color: var(--negro);
+}
+
 .centrar-texto{
     text-align: center;
 }

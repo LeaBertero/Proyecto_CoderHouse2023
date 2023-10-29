@@ -128,6 +128,17 @@ img{
     letter-spacing: 30px;
 }
 
+.titulo-entrada{
+    border: 1px solid var(--negro);
+    padding: 1rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    color: var(--blanco);
+    text-shadow: 2px 5px 3px var(--primario);
+    background-color: var(--negro);
+    letter-spacing: 30px;
+}
+
 .cursos-title{
     border: 1px solid var(--negro);
     padding: 1rem;

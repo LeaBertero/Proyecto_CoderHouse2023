@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --fuenteHeading: 'PT Sans', sans-serif;
     --fuenteParrafos: 'Open sans', sans-serif;
@@ -60,13 +66,13 @@ img{
 }
 
 /* utilidades */
-.no-margin{
+/* .no-margin{
     margin: 0;
 }
 
 .no-padding{
     padding: 0;
-}
+} */
 
 .centrar-texto{
     text-align: center;

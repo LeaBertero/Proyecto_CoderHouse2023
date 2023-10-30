@@ -377,6 +377,15 @@ img{
     margin-bottom: 2rem;
 }
 
+.widget-curso h4{
+    text-transform: uppercase;
+    border: 1px solid var(--primario);
+    padding: 1rem;
+    /* border-radius: 10px; */
+    background-color:#784d3c63;
+    text-shadow: 2px 5px 3px var(--blanco);
+}
+
 .widget-curso:last-of-type{
     border: none;
     margin-bottom: 0;

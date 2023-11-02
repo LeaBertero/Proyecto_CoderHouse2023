@@ -50,13 +50,20 @@ header nav ul li a{
     color: white;
 }
 
-h1{
+/* nav ul li{
+    padding: 10px;
+    font-size: 1.5rem;
+} */
+
+h1,h2{
     border: 1px solid red;
     padding: 1rem;
+    /* font-size: 2rem; */
     text-shadow: 2px 5px 3px red;
     text-transform: uppercase;
     letter-spacing: 5px;
     /* text-decoration: underline; */
+    border-radius: 10px;
 
 }
 

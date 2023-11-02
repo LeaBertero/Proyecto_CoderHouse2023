@@ -91,9 +91,11 @@ h1{
 .portada-title{
     /* margin-left:  100px; */
     align-self: center;
-    padding: 1rem;
+    padding: .4rem 1rem;
+    border-radius: 10px;
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
+    text-shadow: 2px 5px 3px red;
     background-color: black;
     color: white;
     box-shadow: 2px 5px 3px gray;

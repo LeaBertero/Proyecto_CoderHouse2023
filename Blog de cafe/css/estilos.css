@@ -477,3 +477,14 @@ img{
 .campo__field--textarea{
     height: 20rem;
 }
+
+/* iconos del proyecto */
+.contenedor-iconos i{
+    color: white;
+    background-color: black;
+}   
+  
+    
+    
+    
+

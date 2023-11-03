@@ -1,0 +1,14 @@
+h1{
+    text-transform: uppercase;
+    /* margin: 0 auto; */
+    text-align: center;
+    margin: 20px;
+    border: 1px solid black;
+    margin: 20px 400px;
+    border-radius: 10px;
+    background-color: black;
+    text-shadow: 2px 5px 3px white;
+    padding: 1rem;
+    /* align-self: center; */
+    color: red;
+}

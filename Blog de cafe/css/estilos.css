@@ -231,6 +231,14 @@ img{
     letter-spacing: 30px;
 }
 
+.sobre-nosotros__imagen img{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: black;
+    box-shadow: 2px 5px 3px brown;
+}
+
 .titulo-entrada{
     border: 1px solid var(--negro);
     padding: 1rem;
@@ -251,6 +259,14 @@ img{
     color: var(--blanco);
     background-color: var(--negro);
     letter-spacing: 30px;
+}
+
+.curso__imagen{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 2px 5px 3px brown;
 }
 
 /* header */
@@ -335,6 +351,14 @@ img{
 .entrada:last-of-type{
     border: none;
     margin-bottom: 0;
+}
+
+.entrada__imagen img{
+    border: 1px solid black;
+    background-color: black;
+    padding: 5px;
+    box-shadow: 2px 5px 3px brown;
+    border-radius: 10px;
 }
 
 .boton{
@@ -446,8 +470,8 @@ img{
 
 .contacto-bg{
     background-image: url(../imagenes/contacto.jpg);
-    height: 40rem;
-    background-size: cover;
+    height: 30rem;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 

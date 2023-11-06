@@ -97,6 +97,18 @@ img{
     background-color: var(--negro);
 }
 
+.tipoGranos-texto{
+    /* background-color: red; */
+    /* border: 1px solid gray; */
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px black;
+    background: linear-gradient(to top right, gray, brown, black);
+    /* font-weight: bolder; */
+    /* asignar una tipografia de letra del google fonts a los textos del index */
+}
+
 .title-recetas{
     border: 1px solid var(--negro);
     text-align: center;
@@ -311,10 +323,26 @@ img{
     border-radius: 10px;
 }
 
+
 .logo__nombre{
     font-weight: 400;
     text-transform: uppercase;
     text-shadow: 2px 5px 3px var(--primario);
+}
+
+.contenedor-iconos:hover{
+    transition-duration: 5s;
+    padding: 15px;
+    margin: 5px;
+    background: linear-gradient(to top left, brown, black, white);
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px black;
+    font-size: 2rem;
+}
+
+.contenedor-iconos:hover i{
+    color:red;
+    /* border: 1px solid white; */
 }
 
 .logo__bold{

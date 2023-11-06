@@ -283,6 +283,12 @@ img{
     box-shadow: 2px 5px 3px brown;
 }
 
+.curso__informacion{
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 2px 5px 3px black;
+}
+
 /* header */
 .header{
     background-image: url(../imagenes/banner.jpg);

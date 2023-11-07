@@ -1,0 +1,46 @@
+.nosotros-title {
+    text-transform: uppercase;
+    border: 1px solid var(--negro);
+    text-shadow: 2px 5px 3px var(--primario);
+    color: var(--blanco);
+    background-color: var(--negro);
+    padding: 1rem;
+    margin: 1rem;
+    letter-spacing: 30px;
+}
+
+
+
+.sobre-nosotros__imagen img {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: black;
+    box-shadow: 2px 5px 3px brown;
+}
+
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto {
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}

@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.barra {
+    padding: 4rem;
+}
+
+.logo__nombre {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 2px 5px 3px var(--primario);
+}
+
+.centrar-texto {
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*comenzar acá con Sass*/
+@media (min-width: 768px) {
+  .contenido-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+}
+/* Globales */
+.contenedor {
+  max-width: 120rem;
+  width: 90%;
+  /* width: min(90%, 120rem); */
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */

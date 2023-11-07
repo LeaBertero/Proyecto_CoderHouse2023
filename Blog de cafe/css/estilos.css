@@ -423,6 +423,9 @@ img{
 
 .boton--primario{
     background-color: var(--negro);
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px gray;
 }
 
 .boton--secundario{

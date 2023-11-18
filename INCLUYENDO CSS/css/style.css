@@ -1,0 +1,31 @@
+/* selector unoversal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+    background-color: aqua;
+
+    /* text-align: center; */
+}
+
+article {
+    background-color: cadetblue;
+    margin: 10px;
+}
+
+section article {
+    background-color: orange;
+}
+
+article .titulo-noticia {
+    color: blue;
+}
+
+/*  sin uso */
+.btn {
+    background-color: blueviolet;
+}

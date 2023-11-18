@@ -58,19 +58,30 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    margin: 1rem;
+    margin: 0 1rem;
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 2rem;
-    color: white;
-    text-shadow: 2px 5px 3px black;
+    color: black;
+    text-shadow: 2px 5px 3px white;
+}
 
+.menu-navegacion a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.menu-navegacion a {
+    color: black;
 }
 
 .menu-navegacion li:hover {
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: orangered;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
+
+
+    border-radius: 5px;
+    background: linear-gradient(to top right, black, white, black);
+    /* overflow: hidden; */
 
 }

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Document</title>
 
     <link rel="stylesheet" href="./css/estilos_css.css">
@@ -11,27 +12,86 @@
 </head>
 
 <body>
-
+    <!-- clase abuelo =D -->
     <header class="header">
-        <h1 class="titulo-principal">estilos de css</h1>
+
+        <!-- clase padre -->
+        <div class="principal">
+            <h1 class="titulo-principal">estilos de css</h1>
+            <h2 class="titulo-principal">Incluyendo css</h2>
+        </div>
+
     </header>
 
     <main>
 
         <form action="">
-            
-            <input type="text">
 
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div>
+                <label for="campo-nombre">Nombre</label>
+                <input type="text" id="campo-nombre" placeholder="nombre">
+            </div>
+
+            <div>
+                <label for="campo-apellido">apellido</label>
+                <input type="text" id="campo-apellido" placeholder="apellido">
+            </div>
+
+            <div>
+                <label for="campo-email">correo electronico</label>
+                <input type="email" id="campo-email" placeholder="correo electronico">
+            </div>
+
+            <div>
+                <label for="campo-mensaje">ingrese acá su comentario</label>
+                <textarea name="" id="campo-mensaje" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <input type="range">
+                <input type="range">
+            </div>
+
+            <div>
+                <input type="radio" name="campo-seleccion">
+                <input type="radio" name="campo-seleccion">
+                <input type="radio" name="campo-seleccion">
+            </div>
+
+            <div>
+                <label for="campo-novedades">¿Quiere recibir novedades?</label>
+                <input type="checkbox" id="campo-novedades">
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar campos">
+            </div>
+
+
+
+            <select name="" id="">
+
+                <option value="">uno</option>
+                <option value="">dos</option>
+                <option value="">tres</option>
+                <option value="">cuatro</option>
+
+            </select>
 
         </form>
+
+
 
 
     </main>
 
     <footer>
 
+
+
     </footer>
 
 </body>
+
 </html>

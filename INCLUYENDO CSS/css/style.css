@@ -19,6 +19,8 @@ article {
 
 section article {
     background-color: orange;
+    /* color: aqua; */
+    color: red;
 }
 
 article .titulo-noticia {

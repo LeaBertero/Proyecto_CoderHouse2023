@@ -32,3 +32,22 @@ html {
     border-radius: 10px;
     font-size: 3rem;
 }
+
+/* imagenes de fondo - 
+Nota: las etiquetas div siempre  deben tener un contenido para 
+que su contenisi por ejemplo en una imagen pueda visualizarse */
+.img {
+    background-image: url(../imagenes/dalmatian-6240486_640.jpg);
+    height: 650px;
+    /* background-repeat: no-repeat; */
+    /* background-repeat: space; */
+
+    /* tamaño de imagen */
+    /* background-size: 500px 500px; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+
+
+    /* interaccion con el scroll */
+    background-attachment: fixed;
+}

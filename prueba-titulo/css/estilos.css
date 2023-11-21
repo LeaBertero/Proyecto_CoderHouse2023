@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.titulo{
+
+.titulo {
     border: 1px solid black;
     text-align: center;
     padding: 1rem;
@@ -18,4 +19,17 @@
     margin: 10px 220px;
     border-radius: 10px;
     box-shadow: 2px 5px 3px red;
+}
+
+@media (min-width: 480px) {
+    .titulo {
+        border: 1px solid black;
+        text-align: center;
+        padding: 1rem;
+        text-transform: uppercase;
+        background-color: red;
+        letter-spacing: 5px;
+        font-size: 1rem;
+        border-radius: 5px;
+    }
 }

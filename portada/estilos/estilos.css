@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portada {
+    /* border: 1px solid black; */
+    background-image: url(../imagenes/christmas-1869902_640.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+}
+
+.portada h2 {
+    text-align: center;
+    color: transparent;
+    text-shadow: 2px 5px 3px white;
+    padding: 4rem 0 0 8rem;
+    font-weight: bold;
+    font-size: 4rem;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    border: 1px solid black;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    background-color: steelblue;
+}
+
+.back-color-title {
+    background-color: cadetblue;
+
+}
+
+/* enlaces */
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    color: black;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: aliceblue;
+    text-shadow: 2px 5px 3px black;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.barra-navegacion {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2rem;
+
+}
+
+/* modelo de cajas */
+
+.caja {
+    background-color: greenyellow;
+    min-height: 200px;
+}

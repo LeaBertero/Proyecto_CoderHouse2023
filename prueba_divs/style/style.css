@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-padre {
+    background-color: red;
+    min-width: 100%;
+    min-height: 400px;
+    /* width: 1000px; */
+
+}
+
+.color-hijo {
+    background-color: green;
+    min-width: 100%;
+    min-height: 360px;
+    /* width: 1000px; */
+}

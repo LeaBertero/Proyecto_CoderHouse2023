@@ -93,10 +93,64 @@
 }
 
 .contacto {
-    margin: 0 0 0 600px;
+    margin: 0 0 0 850px;
     border-radius: 5px;
     padding: 1rem;
     border: 2px solid black;
     width: 300px;
     box-shadow: 2px 5px 3px black;
+}
+
+.formulario textarea {
+    resize: none;
+    box-shadow: 2px 5px 3px black;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.formulario input {
+    width: 100%;
+    box-shadow: 2px 5px 3px black;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* padding: 5px; */
+    margin-bottom: 10px;
+}
+
+.formulario label {
+    /* margin-bottom: 5px; */
+    text-transform: uppercase;
+    font-weight: bold;
+    /* padding: 1rem; */
+}
+
+.formulario .boton-enviar {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 5px 3px white;
+    padding: 5px;
+}
+
+.formulario .boton-enviar:hover {
+    cursor: pointer;
+}
+
+.formulario .boton-limpiar:hover {
+    cursor: pointer;
+}
+
+
+.formulario .boton-limpiar {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 5px 3px white;
+    padding: 5px;
 }
